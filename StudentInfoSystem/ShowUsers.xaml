@@ -1,0 +1,14 @@
+﻿<Window x:Class="StudentInfoSystem.ShowUsers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentInfoSystem"
+        mc:Ignorable="d"
+        Title="ShowUsers" Height="300" Width="500">
+    <Grid x:Name="gridMain">
+        <ListBox x:Name="users" HorizontalAlignment="Left" Height="130" Margin="39,80,0,0" VerticalAlignment="Top" Width="354" SelectionChanged="ListBox_SelectionChanged"/>
+        <Label Content="Users : " HorizontalAlignment="Left" Margin="39,45,0,0" VerticalAlignment="Top" Width="100" Height="37" FontSize="18" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
